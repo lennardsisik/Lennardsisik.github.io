@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+body {}
+
+
+.hello {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.btn_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn_project,
+.btn_re,
+.btn_contact {
+    margin-right: 5%;
+}
+
+.btn_re {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #EEA302;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    border-radius: 70%;
+    height: 150px;
+    width: 150px;
+}
+
+.btn_re:hover {
+    background-color: #fff;
+    color: #EEA302;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px black;
+}
+
+.btn_re:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+
+
+.btn_project {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF3B25;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    border-radius: 70%;
+    height: 150px;
+    width: 150px;
+}
+
+.btn_project:hover {
+    background-color: #fff;
+    color: #FF3B25;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px black;
+}
+
+.btn_project:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.btn_contact {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #80D8DA;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    border-radius: 70%;
+    height: 150px;
+    width: 150px;
+}
+
+.btn_contact:hover {
+    background-color: #fff;
+    color: #80D8DA;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px black;
+}
+
+.btn_contact:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+
+.displaypic {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.work {
+    height: 100vh;
+    display: flex;
+    padding-top: 5%;
+}
+
+.profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classif
+{
+    padding-left: 8%;
+}
+
+.head {
+    -webkit-text-fill-color: #012569;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: -10px;
+    border-bottom: 3px solid rgba(3, 42, 149, 0.323);
+}
+
+
+
+.ul-skills {
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
